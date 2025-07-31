@@ -3,7 +3,7 @@
 Logi Report enables you to generate and distribute precise reports at scale without coding or leaving the app.
 
 <a href="https://www.logianalytics.com/jreport/">
-    <img src="image/Logi-Report1.png" alt="Logi Report" width="240" />
+    <img src="https://raw.githubusercontent.com/LogiAnalytics/logireport-docker-docs/master/image/Logi-Report1.png" alt="Logi Report" width="240" />
 </a>
 
 Logi Report from Logi Analytics empowers companies to embed the most precise, high performance reports and dashboards into web applications. The embedded analytics platform provides developers and users with a scalable, fault tolerant solution that’s easy to customize and work seamlessly as part of their applications on any platform, with any data source. Every day, Logi Report delivers insights for hundreds of thousands of users at over 10,000 OEM and enterprise installations worldwide.
@@ -12,7 +12,11 @@ Logi Report lets you design, embed, and scale sophisticated operational reports.
 
 # Supported tags
 
-- latest, 25.1.3, 25130.B202506271246, 25.1-sp3, 25.1-sp3-jdk11, 25.1.3-jdk11
+- latest, 25.1.4, 25140.B202507291951, 25.1-sp4, 25.1-sp4-jdk11, 25.1.4-jdk11
+- 25.1.4-jdk21, 25.1-sp4-jdk21, 25140-jdk21
+- 25.1.4-jdk17, 25.1-sp4-jdk17, 25140-jdk17
+- 25.1.4-jdk8, 25.1-sp4-jdk8, 25140-jdk8
+- 25.1.3, 25130.B202506271246, 25.1-sp3, 25.1-sp3-jdk11, 25.1.3-jdk11
 - 25.1.3-jdk21, 25.1-sp3-jdk21, 25130-jdk21
 - 25.1.3-jdk17, 25.1-sp3-jdk17, 25130-jdk17
 - 25.1.3-jdk8, 25.1-sp3-jdk8, 25130-jdk8
@@ -209,7 +213,7 @@ Logi Report lets you design, embed, and scale sophisticated operational reports.
 # How to use this image
 
 ```sh
-docker run  -itd -p 1129:1129/tcp -p 7800:7800/tcp -p 8888:8888/tcp --name logireport_server logianalytics/logireport-server
+docker run --name logireport_server -itd -p 8888:8888/tcp logianalytics/logireport-server
 ```
 
 or use [docker-compose](https://github.com/docker/compose)
@@ -219,59 +223,33 @@ services:
     logireport_server:
         image: logianalytics/logireport-server
         ports:
-        - "1129:1129/tcp"
-        - "7800:7800/tcp"
-        - "8888:8888/tcp"
+            - "8888:8888/tcp"
 ```
 
-This stores the workspace in /opt/LogiReport/Server in the container. All Logi Report Server data lives there - including demo reports and configurations. 
+Then access the service at http://localhost:8888/
+
+This stores the workspace in `/opt/LogiReport/Server` in the container. All Logi Report Server data lives there - including demo reports and configurations. 
 
 ## Data Persistence
 
-If you want to keep things like your license key, deployed reports, and server settings, and use them in a new container, follow these steps:
-
-1. Copy these folders from the currently running container to a backup folder:
-   - bin
-   - hsqldb
-   - font
-   - history
-   - style
-2. Bind these folders into the newly run container.
-
-Here is an example for data persistence:
+If you want to keep things like your license key, deployed reports, and server settings, and use them in a new container, mount container path `/opt/LogiReportServer` to a volume:
 
 ```sh
-cd backup_folder
-docker cp logireport_server:/opt/LogiReport/Server/bin .
-docker cp logireport_server:/opt/LogiReport/Server/hsqldb .
-docker cp logireport_server:/opt/LogiReport/Server/font .
-docker cp logireport_server:/opt/LogiReport/Server/history .
-docker cp logireport_server:/opt/LogiReport/Server/style .
-
-## docker run new container and reuse old data
-docker run -itd --name logireport_server_new -p 8888:8888/tcp \
--v $PWD/bin:/opt/LogiReport/Server/bin \
--v $PWD/hsqldb:/opt/LogiReport/Server/hsqldb \
--v $PWD/font:/opt/LogiReport/Server/font \
--v $PWD/history:/opt/LogiReport/Server/history \
--v $PWD/style:/opt/LogiReport/Server/style \
-logianalytics/logireport-server
+docker run --name logireport_server -itd -p 8888:8888/tcp -v report_home:/opt/LogiReport/Server logianalytics/logireport-server
 ```
 
-or use docker-compose (running in backup_folder):
+or use docker compose:
 
 ```yaml
 services:
     logireport_server:
         image: logianalytics/logireport-server
         ports:
-        - "8888:8888/tcp"
+            - "8888:8888/tcp"
         volumes:
-        - ./bin:/opt/LogiReport/Server/bin
-        - ./hsqldb:/opt/LogiReport/Server/hsqldb
-        - ./font:/opt/LogiReport/Server/font
-        - ./history:/opt/LogiReport/Server/history
-        - ./style:/opt/LogiReport/Server/style
+            - "report_home:/opt/LogiReport/Server"
+volumes:
+    report_home: {}
 ```
 
 # Quick Reference
