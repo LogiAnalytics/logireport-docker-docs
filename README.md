@@ -401,13 +401,15 @@ services:
             - ./font:/var/lib/logi-report/custom/font
 ```
 
-# Server Properties and Response Headers Customization
+# Resource Customization
 
 > **Note:**  
 > The main Logi Report Server installation directory inside the container is `/opt/LogiReport/Server`.  
-> The `/var/lib/logi-report/custom` directory is used for customizations, additional resources, and configuration overrides (such as custom fonts, CSS/HTML/JS files, or property files).
+> The `/var/lib/logi-report/custom` directory is used for customizations, additional resources, and configuration overrides (such as custom fonts, CSS/HTML/JS files, or property files), please keep the directory structure same as `/opt/LogiReport/Server`, so that the customized resources can be correctly applied.
 
-You can customize the Logi Report Server properties by binding a custom `server.properties` file from your host to the container path `/var/lib/logi-report/custom/bin/install.server.properties`. This allows you to override server properties without modifying the main installation directory.
+## Server Properties and Response Headers Customization
+
+For example, you can customize the Logi Report Server properties by binding a custom `server.properties` file from your host to the container path `/var/lib/logi-report/custom/bin/install.server.properties`. This allows you to override server properties without modifying the main installation directory.
 
 You can also customize the HTTP response headers by binding a custom `responseHeaders.properties` file to the container file `/var/lib/logi-report/custom/bin/responseHeaders.properties`.
 
