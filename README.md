@@ -366,6 +366,8 @@ services:
             # Set the cluster history directory, which should be shared across all nodes in the cluster.
             # Make sure the directory exists and is writable by the logi user (UID 1106).
             - LGRPT_HISTORY_DIRECTORY=/var/lib/logi-report/shared/history
+            # Enable automatic host detection for cluster nodes.
+            - LGRPT_JAVA_OPTS=-Djreport.cluster.auto_detect_host=true
         image: logianalytics/logireport-server
         ports:
             - "8888:8888/tcp"
