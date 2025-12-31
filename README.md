@@ -3,7 +3,7 @@
 Logi Report enables you to generate and distribute precise reports at scale without coding or leaving the app.
 
 <a href="https://www.logianalytics.com/jreport/">
-    <img src="https://raw.githubusercontent.com/LogiAnalytics/logireport-docker-docs/master/image/Logi-Report1.png" alt="Logi Report" width="240" />
+    <img src="https://raw.githubusercontent.com/LogiAnalytics/logireport-docker-docs/master/image/ISW-Logo-LogiReport-D+A-Slate.png" alt="Logi Report" width="240" />
 </a>
 
 Logi Report from Logi Analytics empowers companies to embed the most precise, high performance reports and dashboards into web applications. The embedded analytics platform provides developers and users with a scalable, fault tolerant solution that’s easy to customize and work seamlessly as part of their applications on any platform, with any data source. Every day, Logi Report delivers insights for hundreds of thousands of users at over 10,000 OEM and enterprise installations worldwide.
