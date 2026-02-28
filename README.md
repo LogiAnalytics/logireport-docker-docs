@@ -12,8 +12,7 @@ Logi Report lets you design, embed, and scale sophisticated operational reports.
 
 # Supported tags
 
-- latest,
-- 25.3.5, 25350.B202602271944, 25.3-sp5, 25.3-sp5-jdk11, 25.3.5-jdk11
+- latest, 25.3.5, 25350.B202602271944, 25.3-sp5, 25.3-sp5-jdk11, 25.3.5-jdk11
 - 25.3.5-jdk21, 25.3-sp5-jdk21, 25350-jdk21
 - 25.3.5-jdk17, 25.3-sp5-jdk17, 25350-jdk17
 - 25.3.5-jdk8, 25.3-sp5-jdk8, 25350-jdk8
