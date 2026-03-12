@@ -3,7 +3,7 @@
 Logi Report enables you to generate and distribute precise reports at scale without coding or leaving the app.
 
 <a href="https://www.logianalytics.com/jreport/">
-    <img src="https://raw.githubusercontent.com/LogiAnalytics/logireport-docker-docs/master/image/ISW-Logo-LogiReport-D+A-Slate.png" alt="Logi Report" width="368" />
+    <img src="https://raw.githubusercontent.com/LogiAnalytics/logireport-docker-docs/master/image/ISW-Logo-LogiReport-D+A-Slate.png" alt="Logi Report" width="400" />
 </a>
 
 Logi Report from Logi Analytics empowers companies to embed the most precise, high performance reports and dashboards into web applications. The embedded analytics platform provides developers and users with a scalable, fault tolerant solution that’s easy to customize and work seamlessly as part of their applications on any platform, with any data source. Every day, Logi Report delivers insights for hundreds of thousands of users at over 10,000 OEM and enterprise installations worldwide.
@@ -36,6 +36,10 @@ Logi Report lets you design, embed, and scale sophisticated operational reports.
 - 25.3-jdk21, 25300-jdk21
 - 25.3-jdk17, 25300-jdk17
 - 25.3-jdk8, 25300-jdk8
+
+<details>
+  <summary>Show more supported tags</summary>
+
 - 25.1.5, 25150.B202507291951, 25.1-sp5, 25.1-sp5-jdk11, 25.1.5-jdk11
 - 25.1.5-jdk21, 25.1-sp5-jdk21, 25150-jdk21
 - 25.1.5-jdk17, 25.1-sp5-jdk17, 25150-jdk17
@@ -60,10 +64,6 @@ Logi Report lets you design, embed, and scale sophisticated operational reports.
 - 25.1-jdk21, 25100-jdk21
 - 25.1-jdk17, 25100-jdk17
 - 25.1-jdk8, 25100-jdk8
-
-<details>
-  <summary>Show more supported tags</summary>
-
 - 24.3.5, 24350.B202502271941, 24.3-sp5, 24.3-sp5-jdk11
 - 24.3-sp5-jdk21, 24350-jdk21
 - 24.3-sp5-jdk17, 24350-jdk17
