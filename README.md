@@ -478,7 +478,7 @@ Please refer to the [Logi Report Server documentation](https://docs-report.zende
 # Quick Reference
 
 - Where to get help:
-[Logi Report Server Documentation](https://devnet.logianalytics.com/hc/en-us/sections/4405690203799-Logi-Report-Server-v18-), [Docker Community Forums](https://forums.docker.com), [Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/) or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+[Logi Report Server Documentation](https://logi-report-v26.insightsoftware.com/hc/en-us/sections/45202990176141), [Docker Community Forums](https://forums.docker.com), [Docker Blog](https://www.docker.com/blog/) or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
 
 - Maintained by: Logi Analytics
 
@@ -487,4 +487,4 @@ Please refer to the [Logi Report Server documentation](https://docs-report.zende
 
 # Learn more about Logi Report
 
-https://www.logianalytics.com/jreport/
+https://insightsoftware.com/logi-analytics/logi-report/
