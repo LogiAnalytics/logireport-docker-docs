@@ -12,11 +12,16 @@ Logi Report lets you design, embed, and scale sophisticated operational reports.
 
 # Supported tags
 
-- latest, 26.1.1, 26110.B202604281023, 26.1-sp1, 26.1.1-jdk21, 26.1-sp1-jdk21
-- 26.1.1-jdk25, 26.1-sp1-jdk25, 26100-jdk25
-- 26.1.1-jdk17, 26.1-sp1-jdk17,  26100-jdk17
-- 26.1.1-jdk11, 26.1-sp1-jdk11,  26100-jdk11
-- 26.1.1-jdk8, 26.1-sp1-jdk8,  26100-jdk8
+- latest, 26.1.2, 26120.B202605291551, 26.1-sp2, 26.1.2-jdk21, 26.1-sp2-jdk21
+- 26.1.2-jdk25, 26.1-sp2-jdk25, 26120-jdk25
+- 26.1.2-jdk17, 26.1-sp2-jdk17, 26120-jdk17
+- 26.1.2-jdk11, 26.1-sp2-jdk11, 26120-jdk11
+- 26.1.2-jdk8, 26.1-sp2-jdk8,  26120-jdk8
+- 26.1.1, 26110.B202604281023, 26.1-sp1, 26.1.1-jdk21, 26.1-sp1-jdk21
+- 26.1.1-jdk25, 26.1-sp1-jdk25, 26110-jdk25
+- 26.1.1-jdk17, 26.1-sp1-jdk17, 26110-jdk17
+- 26.1.1-jdk11, 26.1-sp1-jdk11, 26110-jdk11
+- 26.1.1-jdk8, 26.1-sp1-jdk8,  26110-jdk8
 - 26.1, 26100.B202603310906, 26.1-ga, 26.1-ga-jdk21, 26.1-jdk21
 - 26.1-jdk25, 26100-jdk25
 - 26.1-jdk17, 26100-jdk17
@@ -30,6 +35,10 @@ Logi Report lets you design, embed, and scale sophisticated operational reports.
 - 25.3.4-jdk21, 25.3-sp4-jdk21, 25340-jdk21
 - 25.3.4-jdk17, 25.3-sp4-jdk17, 25340-jdk17
 - 25.3.4-jdk8, 25.3-sp4-jdk8, 25340-jdk8
+
+<details>
+  <summary>Show more supported tags</summary>
+
 - 25.3.3, 25330.B202512310953, 25.3-sp3, 25.3-sp3-jdk11, 25.3.3-jdk11
 - 25.3.3-jdk21, 25.3-sp3-jdk21, 25330-jdk21
 - 25.3.3-jdk17, 25.3-sp3-jdk17, 25330-jdk17
@@ -46,10 +55,6 @@ Logi Report lets you design, embed, and scale sophisticated operational reports.
 - 25.3-jdk21, 25300-jdk21
 - 25.3-jdk17, 25300-jdk17
 - 25.3-jdk8, 25300-jdk8
-
-<details>
-  <summary>Show more supported tags</summary>
-
 - 25.1.5, 25150.B202507291951, 25.1-sp5, 25.1-sp5-jdk11, 25.1.5-jdk11
 - 25.1.5-jdk21, 25.1-sp5-jdk21, 25150-jdk21
 - 25.1.5-jdk17, 25.1-sp5-jdk17, 25150-jdk17
