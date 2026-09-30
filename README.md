@@ -1,14 +1,12 @@
-# Logi Report
+# Pixel Perfect Reporting
 
-Logi Report enables you to generate and distribute precise reports at scale without coding or leaving the app.
+Embed Pixel-Perfect Reporting in Products.
 
-<a href="https://www.logianalytics.com/jreport/">
-    <img src="https://raw.githubusercontent.com/LogiAnalytics/logireport-docker-docs/master/image/simba-brand.png" alt="Logi Report" width="700" />
+<a href="https://www.insightsoftware.com/simba/pixel-perfect-reporting/">
+    <img src="https://raw.githubusercontent.com/LogiAnalytics/logireport-docker-docs/master/image/simba-brand.png" alt="Simba-Pixel-Perfect-Reporting" width="700" />
 </a>
 
-Logi Report from Logi Analytics empowers companies to embed the most precise, high performance reports and dashboards into web applications. The embedded analytics platform provides developers and users with a scalable, fault tolerant solution that’s easy to customize and work seamlessly as part of their applications on any platform, with any data source. Every day, Logi Report delivers insights for hundreds of thousands of users at over 10,000 OEM and enterprise installations worldwide.
-
-Logi Report lets you design, embed, and scale sophisticated operational reports. Get precise layout control and easy distribution to thousands of users.
+Generate branded, paginated, high-volume reports inside your app, with exact layout control, automated delivery, and export-ready output.
 
 # Supported tags
 
@@ -352,7 +350,7 @@ volumes:
 
 # Logs Configuration
 
-Logi Report Server logs can be found in the following directory inside the container:
+Server logs can be found in the following directory inside the container:
 
 ```
 /opt/LogiReport/Server/logs
@@ -373,7 +371,7 @@ All logger types support the following log levels:
 services:
     logireportserver:
         environment:
-            # Stream Logi Report Server logs to container console
+            # Stream Server logs to container console
             - LGRPT_ENABLE_CONSOLE_LOGS_DESTINATION=true
             # Log level settings
             - LGRPT_LOGGER_ENGINE_LEVEL=ERROR
@@ -401,7 +399,7 @@ You can set the database connection properties using environment variables when 
 services:
     logireportserver:
         environment:
-            # Database settings for Logi Report Server
+            # Database settings for Server
             - LGRPT_SYSDB_TYP=Production
             - LGRPT_SYSDB_JDBC_URL=jdbc:postgresql://your-db-host/logireport
             - LGRPT_SYSDB_JDBC_DRIVER_CLASSNAME=org.postgresql.Driver
@@ -421,7 +419,7 @@ services:
 
 # Cluster Settings
 
-Logi Report Server supports clustering for high availability and load balancing. To enable clustering, set the following environment variables:
+Server supports clustering for high availability and load balancing. To enable clustering, set the following environment variables:
 
 ```yaml
 services:
@@ -452,7 +450,7 @@ volumes:
 ```
 
 # TrueType Fonts
-Logi Report Server supports TrueType fonts for report rendering. To add custom TrueType fonts, bind mount the font folder with TTF files to the container:
+Server supports TrueType fonts for report rendering. To add custom TrueType fonts, bind mount the font folder with TTF files to the container:
 
 ```yaml
 services:
@@ -470,12 +468,12 @@ services:
 # Resource Customization
 
 > **Note:**  
-> The main Logi Report Server installation directory inside the container is `/opt/LogiReport/Server`.  
+> The main Server installation directory inside the container is `/opt/LogiReport/Server`.  
 > The `/var/lib/logi-report/custom` directory is used for customizations, additional resources, and configuration overrides (such as custom fonts, CSS/HTML/JS files, or property files), please keep the directory structure same as `/opt/LogiReport/Server`, so that the customized resources can be correctly applied.
 
 ## Server Properties and Response Headers Customization
 
-For example, you can customize the Logi Report Server properties by binding a custom `server.properties` file from your host to the container path `/var/lib/logi-report/custom/bin/install.server.properties`. This allows you to override server properties without modifying the main installation directory.
+For example, you can customize the Server properties by binding a custom `server.properties` file from your host to the container path `/var/lib/logi-report/custom/bin/install.server.properties`. This allows you to override server properties without modifying the main installation directory.
 
 You can also customize the HTTP response headers by binding a custom `responseHeaders.properties` file to the container file `/var/lib/logi-report/custom/bin/responseHeaders.properties`.
 
@@ -496,18 +494,18 @@ services:
 
 # More Available Environment Variables
 
-Please refer to the [Logi Report Server documentation](https://docs-report.zendesk.com/hc/en-us/articles/28891700401805-Environment-Variable-Configuration-for-Docker) for a complete list of available environment variables and their descriptions.
+Please refer to the [Server documentation](https://docs-report.zendesk.com/hc/en-us/articles/28891700401805-Environment-Variable-Configuration-for-Docker) for a complete list of available environment variables and their descriptions.
 
 # Quick Reference
 
 - Where to get help:
-[Logi Report Server Documentation](https://logi-report-v26.insightsoftware.com/hc/en-us/sections/45202990176141), [Docker Community Forums](https://forums.docker.com), [Docker Blog](https://www.docker.com/blog/) or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+[Server Documentation](https://logi-report-v26.insightsoftware.com/hc/en-us/sections/45202990176141), [Docker Community Forums](https://forums.docker.com), [Docker Blog](https://www.docker.com/blog/) or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
 
 - Maintained by: Logi Analytics
 
 - Supported Docker versions:
 [Latest release](https://github.com/docker/docker-ce/releases/latest) (down to 1.6 on a best-effort basis)
 
-# Learn more about Logi Report
+# Learn more about Pixel Perfect Reporting
 
-https://insightsoftware.com/logi-analytics/logi-report/
+https://www.insightsoftware.com/simba/pixel-perfect-reporting/
