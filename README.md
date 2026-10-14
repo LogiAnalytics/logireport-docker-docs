@@ -51,233 +51,234 @@ Generate branded, paginated, high-volume reports inside your app, with exact lay
 
 <details>
   <summary>Show more supported tags</summary>
-
-- 25.3.5, 25350.B202602271944, 25.3-sp5, 25.3-sp5-jdk11, 25.3.5-jdk11
-- 25.3.5-jdk21, 25.3-sp5-jdk21, 25350-jdk21
-- 25.3.5-jdk17, 25.3-sp5-jdk17, 25350-jdk17
-- 25.3.5-jdk8, 25.3-sp5-jdk8, 25350-jdk8
-- 25.3.4, 25340.B202601301039, 25.3-sp4, 25.3-sp4-jdk11, 25.3.4-jdk11
-- 25.3.4-jdk21, 25.3-sp4-jdk21, 25340-jdk21
-- 25.3.4-jdk17, 25.3-sp4-jdk17, 25340-jdk17
-- 25.3.4-jdk8, 25.3-sp4-jdk8, 25340-jdk8
-- 25.3.3, 25330.B202512310953, 25.3-sp3, 25.3-sp3-jdk11, 25.3.3-jdk11
-- 25.3.3-jdk21, 25.3-sp3-jdk21, 25330-jdk21
-- 25.3.3-jdk17, 25.3-sp3-jdk17, 25330-jdk17
-- 25.3.3-jdk8, 25.3-sp3-jdk8, 25330-jdk8
-- 25.3.2, 25320.B202511261926, 25.3-sp2, 25.3-sp2-jdk11, 25.3.2-jdk11
-- 25.3.2-jdk21, 25.3-sp2-jdk21, 25320-jdk21
-- 25.3.2-jdk17, 25.3-sp2-jdk17, 25320-jdk17
-- 25.3.2-jdk8, 25.3-sp2-jdk8, 25320-jdk8
-- 25.3.1, 25310.B202510301128, 25.3-sp1, 25.3-sp1-jdk11, 25.3.1-jdk11
-- 25.3.1-jdk21, 25.3-sp1-jdk21, 25310-jdk21
-- 25.3.1-jdk17, 25.3-sp1-jdk17, 25310-jdk17
-- 25.3.1-jdk8, 25.3-sp1-jdk8, 25310-jdk8
-- 25.3, 25300.B202509281318, 25.3-ga, 25.3-ga-jdk11, 25.3-jdk11
-- 25.3-jdk21, 25300-jdk21
-- 25.3-jdk17, 25300-jdk17
-- 25.3-jdk8, 25300-jdk8
-- 25.1.5, 25150.B202507291951, 25.1-sp5, 25.1-sp5-jdk11, 25.1.5-jdk11
-- 25.1.5-jdk21, 25.1-sp5-jdk21, 25150-jdk21
-- 25.1.5-jdk17, 25.1-sp5-jdk17, 25150-jdk17
-- 25.1.5-jdk8, 25.1-sp5-jdk8, 25150-jdk8
-- 25.1.4, 25140.B202507291951, 25.1-sp4, 25.1-sp4-jdk11, 25.1.4-jdk11
-- 25.1.4-jdk21, 25.1-sp4-jdk21, 25140-jdk21
-- 25.1.4-jdk17, 25.1-sp4-jdk17, 25140-jdk17
-- 25.1.4-jdk8, 25.1-sp4-jdk8, 25140-jdk8
-- 25.1.3, 25130.B202506271246, 25.1-sp3, 25.1-sp3-jdk11, 25.1.3-jdk11
-- 25.1.3-jdk21, 25.1-sp3-jdk21, 25130-jdk21
-- 25.1.3-jdk17, 25.1-sp3-jdk17, 25130-jdk17
-- 25.1.3-jdk8, 25.1-sp3-jdk8, 25130-jdk8
-- 25.1.2, 25120.B202505291637, 25.1-sp2, 25.1-sp2-jdk11, 25.1.2-jdk11
-- 25.1.2-jdk21, 25.1-sp2-jdk21, 25120-jdk21
-- 25.1.2-jdk17, 25.1-sp2-jdk17, 25120-jdk17
-- 25.1.2-jdk8, 25.1-sp2-jdk8, 25120-jdk8
-- 25.1.1, 25110.B202504301002, 25.1-sp1, 25.1-sp1-jdk11, 25.1.1-jdk11
-- 25.1-sp1-jdk21, 25110-jdk21
-- 25.1-sp1-jdk17, 25110-jdk17
-- 25.1-sp1-jdk8, 25110-jdk8
-- 25.1, 25100.B202503292254, 25.1-ga, 25.1-ga-jdk11, 25.1-jdk11
-- 25.1-jdk21, 25100-jdk21
-- 25.1-jdk17, 25100-jdk17
-- 25.1-jdk8, 25100-jdk8
-- 24.3.5, 24350.B202502271941, 24.3-sp5, 24.3-sp5-jdk11
-- 24.3-sp5-jdk21, 24350-jdk21
-- 24.3-sp5-jdk17, 24350-jdk17
-- 24.3-sp5-jdk8, 24350-jdk8
-- 24.3.4, 24340.B202501261747, 24.3-sp4, 24.3-sp4-jdk11
-- 24.3-sp4-jdk21, 24340-jdk21
-- 24.3-sp4-jdk17, 24340-jdk17
-- 24.3-sp4-jdk8, 24340-jdk8
-- 24.3.3, 24330.B202412301921, 24.3-sp3, 24.3-sp3-jdk11
-- 24.3-sp3-jdk21, 24330-jdk21
-- 24.3-sp3-jdk17, 24330-jdk17
-- 24.3-sp3-jdk8, 24330-jdk8
-- 24.3.2, 24320.B202411271902, 24.3-sp2, 24.3-sp2-jdk11
-- 24.3-sp2-jdk17, 24320-jdk17
-- 24.3-sp2-jdk8, 24320-jdk8
-- 24.3.1, 24310.B202410311350, 24.3-sp1, 24.3-sp1-jdk11
-- 24.3-sp1-jdk17, 24310-jdk17
-- 24.3-sp1-jdk8, 24310-jdk8
-- 24.3, 24300.B202409272016, 24.3-ga, 24.3-ga-jdk11
-- 24.3-jdk17, 24300-jdk17
-- 24.3-jdk8, 24300-jdk8
-- 24.1.6, 24160.B202409021901, 24.1-sp6, 24.1-sp6-jdk11
-- 24.1-sp6-jdk21, 24160-jdk21
-- 24.1-sp6-jdk17, 24160-jdk17
-- 24.1-sp6-jdk8, 24160-jdk8
-- 24.1.5, 24150.B202407291611, 24.1-sp5, 24.1-sp5-jdk11
-- 24.1-sp5-jdk21, 24150-jdk21
-- 24.1-sp5-jdk17, 24150-jdk17
-- 24.1-sp5-jdk8, 24150-jdk8
-- 24.1.4, 24140.B202406281430, 24.1-sp4, 24.1-sp4-jdk11
-- 24.1-sp4-jdk17, 24140-jdk17
-- 24.1-sp4-jdk8, 24140-jdk8
-- 24.1.3, 24130.B202405311026, 24.1-sp3, 24.1-sp3-jdk11
-- 24.1-sp3-jdk17, 24130-jdk17
-- 24.1-sp3-jdk8, 24130-jdk8
-- 24.1.2, 24120.B202404292057, 24.1-sp2, 24.1-sp2-jdk11
-- 24.1-sp2-jdk17, 24120-jdk17
-- 24.1-sp2-jdk8, 24120-jdk8
-- 24.1.1, 24110.B202308311831, 24.1-sp1, 24.1-sp1-jdk11
-- 24.1-sp1-jdk17, 24110-jdk17
-- 24.1-sp1-jdk8, 24110-jdk8
-- 24.1, 24100.B202402291615, 24.1-ga, 24.1-ga-jdk11
-- 24.1-jdk17, 24100-jdk17
-- 24.1-jdk8, 24100-jdk8
-- 23.4.3, 23430.B202401311627, 23.4-sp3, 23.4-sp3-jdk11
-- 23.4-sp3-jdk17, 23430-jdk17
-- 23.4-sp3-jdk8, 23430-jdk8
-- 23.4.2, 23420.B202312300021, 23.4-sp2, 23.4-sp2-jdk11
-- 23.4-sp2-jdk17, 23420-jdk17
-- 23.4-sp2-jdk8, 23420-jdk8
-- 23.4.1, 23410.B202311301630, 23.4-sp1, 23.4-sp1-jdk11
-- 23.4-sp1-jdk17, 23410-jdk17
-- 23.4-sp1-jdk8, 23410-jdk8
-- 23.4, 23400.B202310312356, 23.4-ga, 23.4-ga-jdk11
-- 23.4-jdk17, 23400-jdk17
-- 23.4-jdk8, 23400-jdk8
-- 23.3.3, 23330.B202311010001, 23.3-sp3, 23.3-sp3-jdk11
-- 23.3-sp3-jdk17, 23330-jdk17
-- 23.3-sp3-jdk8, 23330-jdk8
-- 23.3.2, 23320.B202309271655, 23.3-sp2, 23.3-sp2-jdk11
-- 23.3-sp2-jdk17, 23320-jdk17
-- 23.3-sp2-jdk8, 23320-jdk8
-- 23.3.1, 23310.B202308311831, 23.3-sp1, 23.3-sp1-jdk11
-- 23.3-sp1-jdk17, 23310-jdk17
-- 23.3-sp1-jdk8, 23310-jdk8
-- 23.3, 23300.B202307281313, 23.3-ga, 23.3-ga-jdk11
-- 23.3-jdk17, 23300-jdk17
-- 23.3-jdk8, 23300-jdk8
-- 23.2.3, 23230.B202307290217, 23.2-sp3, 23.2-sp3-jdk11
-- 23.2-sp3-jdk17, 23230-jdk17
-- 23.2-sp3-jdk8, 23230-jdk8
-- 23.2.2, 23220.B202306302222, 23.2-sp2, 23.2-sp2-jdk11
-- 23.2-sp2-jdk17, 23220-jdk17
-- 23.2-sp2-jdk8, 23220-jdk8
-- 23.2.1, 23210.B202305300239, 23.2-sp1, 23.2-sp1-jdk11
-- 23.2-sp1-jdk17, 23210-jdk17
-- 23.2-sp1-jdk8, 23210-jdk8
-- 23.2, 23200.B202304281044, 23.2-ga, 23.2-ga-jdk11
-- 23.2-jdk17, 23200-jdk17
-- 23.2-jdk8, 23200-jdk8
-- 23.1.3, 23130.B202304281131, 23.1-sp3, 23.1-sp3-jdk11
-- 23.1-sp3-jdk17, 23130-jdk17
-- 23.1-sp3-jdk8, 23130-jdk8
-- 23.1.2, 23120.B202303271400, 23.1-sp2, 23.1-sp2-jdk11
-- 23.1-sp2-jdk17, 23120-jdk17
-- 23.1-sp2-jdk8, 23120-jdk8
-- 23.1.1, 23110.B202302271651, 23.1-sp1, 23.1-sp1-jdk11
-- 23.1-sp1-jdk17, 23110-jdk17
-- 23.1-sp1-jdk8, 23110-jdk8
-- 23.1, 23100.B202301311248, 23.1-ga, 23.1-ga-jdk11
-- 23.1-jdk17, 23100-jdk17
-- 23.1-jdk8, 23100-jdk8
-- 19.2.3, 19230.B202301300217, 19.2-sp3, 19.2-sp3-jdk11
-- 19.2-sp3-jdk17, 19230-jdk17
-- 19.2-sp3-jdk8, 19230-jdk8
-- 19.2.2, 19220.B202212290245, 19.2-sp2, 19.2-sp2-jdk11
-- 19.2-sp2-jdk17, 19220-jdk17
-- 19.2-sp2-jdk8, 19220-jdk8
-- 19.2.1, 19210.B202211290949, 19.2-sp1, 19.2-sp1-jdk11
-- 19.2-sp1-jdk17, 19210-jdk17
-- 19.2-sp1-jdk8, 19210-jdk8
-- 19.2, 19200.B202210281638, 19.2-ga, 19.2-ga-jdk11
-- 19.2-jdk17, 19200-jdk17
-- 19.1-sp3, 19130.B202210270232, 19.1.3, 19.1-sp3-jdk11
-- 19.1-sp3-jdk17, 19130-jdk17
-- 19.1-sp3-jdk8, 19130-jdk8
-- 19.1-sp2, 19120.B202209281547, 19.1.2, 19.1-sp2-jdk11
-- 19.1-sp2-jdk17, 19120-jdk17
-- 19.1-sp2-jdk8, 19120-jdk8
-- 19.1-sp1, 19110.B202208291743, 19.1.1, 19.1-sp1-jdk11
-- 19.1-sp1-jdk17, 19110-jdk17
-- 19.1-sp1-jdk8, 19110-jdk8
-- 19.1, 19100.B202207291022, 19.1-ga, 19.1-jdk11
-- 19.1-jdk17, 19100-jdk17
-- 19.1-jdk8, 19100-jdk8
-- 19-sp3, 19030.B202207251018, 19.0.3, 19-sp3-jdk11
-- 19-sp3-jdk17, 19030-jdk17
-- 19-sp3-jdk8, 19030-jdk8
-- 19-sp2, 19020.B202206231611, 19.0.2, 19-sp2-jdk11
-- 19-sp2-jdk17, 19020-jdk17
-- 19-sp2-jdk8, 19020-jdk8
-- 19-sp1, 19010.B202205271126, 19.0.1, 19-sp1-jdk11
-- 19-sp1-jdk17, 19010-jdk17
-- 19-sp1-jdk8, 19010-jdk8
-- 19, 19000.B202204291258, 19-ga, 19-jdk11
-- 19-jdk17, 19000-jdk17
-- 19-jdk8, 19000-jdk8
-- 18.3.3, 18330.B202204282107, 18.3-sp3, 18.3-sp3-jdk11
-- 18.3.3-jdk17, 18330-jdk17
-- 18.3.3-jdk8, 18330-jdk8
-- 18.3.2, 18320.B202203281814, 18.3-sp2, 18.3-sp2-jdk11
-- 18.3.2-jdk17, 18320-jdk17
-- 18.3.2-jdk8, 18320-jdk8
-- 18.3.1, 18310.B202202231047, 18.3-sp1, 18.3-sp1-jdk11
-- 18.3.1-jdk17, 18310-jdk17
-- 18.3.1-jdk8, 18310-jdk8
-- 18.3, 18.3-jdk11, 18300.B202201260232, 18.3-ga
-- 18.3-jdk17, 18300-jdk17
-- 18.3-jdk8, 18300-jdk8
-- 18.2.3, 18.2.3-jdk11, 18230.B202201261719, 18.2-sp3
-- 18.2.3-jdk8, 18230-jdk8
-- 18.2.2, 18.2.2-jdk11, 18220.B202112240214, 18.2-sp2
-- 18.2.2-jdk8, 18.2-sp2-jdk8, 18220-jdk8
-- 18.2.1, 18210.B202111261433, 18.2-sp1
-- 18.2, 18.2-ga, 18200.B202110261518
-- 18.1-sp3, 18130.B202110250446
-- 18.1-sp2, 18120.B202109290720
-- 18.1-sp1, 18110.B202108301402
-- 18.1, 18.1-ga, 18100.B202107262141
-- 18.1-jdk8
-- 18, 18-ga, 18000.B202104281512
-- 18-jdk8, 18000-jdk8, 18000.B202104281512-jdk8
-- 18-jdk17, 18000-jdk17, 18000.B202104281512-jdk17
-- 17.1-sp3, 17130.B202107292036
-- 17.1-sp2, 17120.B202106301222
-- 17.1-up1, 17110.B202012141641
-- 17.1-up1-jdk11, 17110.B202012141641-jdk11
-- 17.1-up1-jdk13, 17110.B202012141641-jdk13
-- 17.1, 17.1-ga, 17100.B202010191405, 17.1-ga-jdk11
-- 17.1-jdk13, 17100.B202010191405-jdk13
-- 17.1-jdk8, 17100-jdk8
-- 17-up1, 17010.B202007241532
-- 17, 17-ga, 17000.B202006051612
-- 16.1-up2, 16120.B202003181533
-- 16.1-up1, 16110.B201912280432
-- 16.1, 16.1-ga, 16100.B201911150434
-- 16-up2
-- 16-up1
-- 16
-- 15.6-up1
-- 15.6
-- 15.5
+  - 25.3.5, 25350.B202602271944, 25.3-sp5, 25.3-sp5-jdk11, 25.3.5-jdk11
+  - 25.3.5-jdk21, 25.3-sp5-jdk21, 25350-jdk21
+  - 25.3.5-jdk17, 25.3-sp5-jdk17, 25350-jdk17
+  - 25.3.5-jdk8, 25.3-sp5-jdk8, 25350-jdk8
+  - 25.3.4, 25340.B202601301039, 25.3-sp4, 25.3-sp4-jdk11, 25.3.4-jdk11
+  - 25.3.4-jdk21, 25.3-sp4-jdk21, 25340-jdk21
+  - 25.3.4-jdk17, 25.3-sp4-jdk17, 25340-jdk17
+  - 25.3.4-jdk8, 25.3-sp4-jdk8, 25340-jdk8
+  - 25.3.3, 25330.B202512310953, 25.3-sp3, 25.3-sp3-jdk11, 25.3.3-jdk11
+  - 25.3.3-jdk21, 25.3-sp3-jdk21, 25330-jdk21
+  - 25.3.3-jdk17, 25.3-sp3-jdk17, 25330-jdk17
+  - 25.3.3-jdk8, 25.3-sp3-jdk8, 25330-jdk8
+  - 25.3.2, 25320.B202511261926, 25.3-sp2, 25.3-sp2-jdk11, 25.3.2-jdk11
+  - 25.3.2-jdk21, 25.3-sp2-jdk21, 25320-jdk21
+  - 25.3.2-jdk17, 25.3-sp2-jdk17, 25320-jdk17
+  - 25.3.2-jdk8, 25.3-sp2-jdk8, 25320-jdk8
+  - 25.3.1, 25310.B202510301128, 25.3-sp1, 25.3-sp1-jdk11, 25.3.1-jdk11
+  - 25.3.1-jdk21, 25.3-sp1-jdk21, 25310-jdk21
+  - 25.3.1-jdk17, 25.3-sp1-jdk17, 25310-jdk17
+  - 25.3.1-jdk8, 25.3-sp1-jdk8, 25310-jdk8
+  - 25.3, 25300.B202509281318, 25.3-ga, 25.3-ga-jdk11, 25.3-jdk11
+  - 25.3-jdk21, 25300-jdk21
+  - 25.3-jdk17, 25300-jdk17
+  - 25.3-jdk8, 25300-jdk8
+  - 25.1.5, 25150.B202507291951, 25.1-sp5, 25.1-sp5-jdk11, 25.1.5-jdk11
+  - 25.1.5-jdk21, 25.1-sp5-jdk21, 25150-jdk21
+  - 25.1.5-jdk17, 25.1-sp5-jdk17, 25150-jdk17
+  - 25.1.5-jdk8, 25.1-sp5-jdk8, 25150-jdk8
+  - 25.1.4, 25140.B202507291951, 25.1-sp4, 25.1-sp4-jdk11, 25.1.4-jdk11
+  - 25.1.4-jdk21, 25.1-sp4-jdk21, 25140-jdk21
+  - 25.1.4-jdk17, 25.1-sp4-jdk17, 25140-jdk17
+  - 25.1.4-jdk8, 25.1-sp4-jdk8, 25140-jdk8
+  - 25.1.3, 25130.B202506271246, 25.1-sp3, 25.1-sp3-jdk11, 25.1.3-jdk11
+  - 25.1.3-jdk21, 25.1-sp3-jdk21, 25130-jdk21
+  - 25.1.3-jdk17, 25.1-sp3-jdk17, 25130-jdk17
+  - 25.1.3-jdk8, 25.1-sp3-jdk8, 25130-jdk8
+  - 25.1.2, 25120.B202505291637, 25.1-sp2, 25.1-sp2-jdk11, 25.1.2-jdk11
+  - 25.1.2-jdk21, 25.1-sp2-jdk21, 25120-jdk21
+  - 25.1.2-jdk17, 25.1-sp2-jdk17, 25120-jdk17
+  - 25.1.2-jdk8, 25.1-sp2-jdk8, 25120-jdk8
+  - 25.1.1, 25110.B202504301002, 25.1-sp1, 25.1-sp1-jdk11, 25.1.1-jdk11
+  - 25.1-sp1-jdk21, 25110-jdk21
+  - 25.1-sp1-jdk17, 25110-jdk17
+  - 25.1-sp1-jdk8, 25110-jdk8
+  - 25.1, 25100.B202503292254, 25.1-ga, 25.1-ga-jdk11, 25.1-jdk11
+  - 25.1-jdk21, 25100-jdk21
+  - 25.1-jdk17, 25100-jdk17
+  - 25.1-jdk8, 25100-jdk8
+  - 24.3.5, 24350.B202502271941, 24.3-sp5, 24.3-sp5-jdk11
+  - 24.3-sp5-jdk21, 24350-jdk21
+  - 24.3-sp5-jdk17, 24350-jdk17
+  - 24.3-sp5-jdk8, 24350-jdk8
+  - 24.3.4, 24340.B202501261747, 24.3-sp4, 24.3-sp4-jdk11
+  - 24.3-sp4-jdk21, 24340-jdk21
+  - 24.3-sp4-jdk17, 24340-jdk17
+  - 24.3-sp4-jdk8, 24340-jdk8
+  - 24.3.3, 24330.B202412301921, 24.3-sp3, 24.3-sp3-jdk11
+  - 24.3-sp3-jdk21, 24330-jdk21
+  - 24.3-sp3-jdk17, 24330-jdk17
+  - 24.3-sp3-jdk8, 24330-jdk8
+  - 24.3.2, 24320.B202411271902, 24.3-sp2, 24.3-sp2-jdk11
+  - 24.3-sp2-jdk17, 24320-jdk17
+  - 24.3-sp2-jdk8, 24320-jdk8
+  - 24.3.1, 24310.B202410311350, 24.3-sp1, 24.3-sp1-jdk11
+  - 24.3-sp1-jdk17, 24310-jdk17
+  - 24.3-sp1-jdk8, 24310-jdk8
+  - 24.3, 24300.B202409272016, 24.3-ga, 24.3-ga-jdk11
+  - 24.3-jdk17, 24300-jdk17
+  - 24.3-jdk8, 24300-jdk8
+  - 24.1.6, 24160.B202409021901, 24.1-sp6, 24.1-sp6-jdk11
+  - 24.1-sp6-jdk21, 24160-jdk21
+  - 24.1-sp6-jdk17, 24160-jdk17
+  - 24.1-sp6-jdk8, 24160-jdk8
+  - 24.1.5, 24150.B202407291611, 24.1-sp5, 24.1-sp5-jdk11
+  - 24.1-sp5-jdk21, 24150-jdk21
+  - 24.1-sp5-jdk17, 24150-jdk17
+  - 24.1-sp5-jdk8, 24150-jdk8
+  - 24.1.4, 24140.B202406281430, 24.1-sp4, 24.1-sp4-jdk11
+  - 24.1-sp4-jdk17, 24140-jdk17
+  - 24.1-sp4-jdk8, 24140-jdk8
+  - 24.1.3, 24130.B202405311026, 24.1-sp3, 24.1-sp3-jdk11
+  - 24.1-sp3-jdk17, 24130-jdk17
+  - 24.1-sp3-jdk8, 24130-jdk8
+  - 24.1.2, 24120.B202404292057, 24.1-sp2, 24.1-sp2-jdk11
+  - 24.1-sp2-jdk17, 24120-jdk17
+  - 24.1-sp2-jdk8, 24120-jdk8
+  - 24.1.1, 24110.B202308311831, 24.1-sp1, 24.1-sp1-jdk11
+  - 24.1-sp1-jdk17, 24110-jdk17
+  - 24.1-sp1-jdk8, 24110-jdk8
+  - 24.1, 24100.B202402291615, 24.1-ga, 24.1-ga-jdk11
+  - 24.1-jdk17, 24100-jdk17
+  - 24.1-jdk8, 24100-jdk8
+  - 23.4.3, 23430.B202401311627, 23.4-sp3, 23.4-sp3-jdk11
+  - 23.4-sp3-jdk17, 23430-jdk17
+  - 23.4-sp3-jdk8, 23430-jdk8
+  - 23.4.2, 23420.B202312300021, 23.4-sp2, 23.4-sp2-jdk11
+  - 23.4-sp2-jdk17, 23420-jdk17
+  - 23.4-sp2-jdk8, 23420-jdk8
+  - 23.4.1, 23410.B202311301630, 23.4-sp1, 23.4-sp1-jdk11
+  - 23.4-sp1-jdk17, 23410-jdk17
+  - 23.4-sp1-jdk8, 23410-jdk8
+  - 23.4, 23400.B202310312356, 23.4-ga, 23.4-ga-jdk11
+  - 23.4-jdk17, 23400-jdk17
+  - 23.4-jdk8, 23400-jdk8
+  - 23.3.3, 23330.B202311010001, 23.3-sp3, 23.3-sp3-jdk11
+  - 23.3-sp3-jdk17, 23330-jdk17
+  - 23.3-sp3-jdk8, 23330-jdk8
+  - 23.3.2, 23320.B202309271655, 23.3-sp2, 23.3-sp2-jdk11
+  - 23.3-sp2-jdk17, 23320-jdk17
+  - 23.3-sp2-jdk8, 23320-jdk8
+  - 23.3.1, 23310.B202308311831, 23.3-sp1, 23.3-sp1-jdk11
+  - 23.3-sp1-jdk17, 23310-jdk17
+  - 23.3-sp1-jdk8, 23310-jdk8
+  - 23.3, 23300.B202307281313, 23.3-ga, 23.3-ga-jdk11
+  - 23.3-jdk17, 23300-jdk17
+  - 23.3-jdk8, 23300-jdk8
+  - 23.2.3, 23230.B202307290217, 23.2-sp3, 23.2-sp3-jdk11
+  - 23.2-sp3-jdk17, 23230-jdk17
+  - 23.2-sp3-jdk8, 23230-jdk8
+  - 23.2.2, 23220.B202306302222, 23.2-sp2, 23.2-sp2-jdk11
+  - 23.2-sp2-jdk17, 23220-jdk17
+  - 23.2-sp2-jdk8, 23220-jdk8
+  - 23.2.1, 23210.B202305300239, 23.2-sp1, 23.2-sp1-jdk11
+  - 23.2-sp1-jdk17, 23210-jdk17
+  - 23.2-sp1-jdk8, 23210-jdk8
+  - 23.2, 23200.B202304281044, 23.2-ga, 23.2-ga-jdk11
+  - 23.2-jdk17, 23200-jdk17
+  - 23.2-jdk8, 23200-jdk8
+  - 23.1.3, 23130.B202304281131, 23.1-sp3, 23.1-sp3-jdk11
+  - 23.1-sp3-jdk17, 23130-jdk17
+  - 23.1-sp3-jdk8, 23130-jdk8
+  - 23.1.2, 23120.B202303271400, 23.1-sp2, 23.1-sp2-jdk11
+  - 23.1-sp2-jdk17, 23120-jdk17
+  - 23.1-sp2-jdk8, 23120-jdk8
+  - 23.1.1, 23110.B202302271651, 23.1-sp1, 23.1-sp1-jdk11
+  - 23.1-sp1-jdk17, 23110-jdk17
+  - 23.1-sp1-jdk8, 23110-jdk8
+  - 23.1, 23100.B202301311248, 23.1-ga, 23.1-ga-jdk11
+  - 23.1-jdk17, 23100-jdk17
+  - 23.1-jdk8, 23100-jdk8
+  - 19.2.3, 19230.B202301300217, 19.2-sp3, 19.2-sp3-jdk11
+  - 19.2-sp3-jdk17, 19230-jdk17
+  - 19.2-sp3-jdk8, 19230-jdk8
+  - 19.2.2, 19220.B202212290245, 19.2-sp2, 19.2-sp2-jdk11
+  - 19.2-sp2-jdk17, 19220-jdk17
+  - 19.2-sp2-jdk8, 19220-jdk8
+  - 19.2.1, 19210.B202211290949, 19.2-sp1, 19.2-sp1-jdk11
+  - 19.2-sp1-jdk17, 19210-jdk17
+  - 19.2-sp1-jdk8, 19210-jdk8
+  - 19.2, 19200.B202210281638, 19.2-ga, 19.2-ga-jdk11
+  - 19.2-jdk17, 19200-jdk17
+  - 19.1-sp3, 19130.B202210270232, 19.1.3, 19.1-sp3-jdk11
+  - 19.1-sp3-jdk17, 19130-jdk17
+  - 19.1-sp3-jdk8, 19130-jdk8
+  - 19.1-sp2, 19120.B202209281547, 19.1.2, 19.1-sp2-jdk11
+  - 19.1-sp2-jdk17, 19120-jdk17
+  - 19.1-sp2-jdk8, 19120-jdk8
+  - 19.1-sp1, 19110.B202208291743, 19.1.1, 19.1-sp1-jdk11
+  - 19.1-sp1-jdk17, 19110-jdk17
+  - 19.1-sp1-jdk8, 19110-jdk8
+  - 19.1, 19100.B202207291022, 19.1-ga, 19.1-jdk11
+  - 19.1-jdk17, 19100-jdk17
+  - 19.1-jdk8, 19100-jdk8
+  - 19-sp3, 19030.B202207251018, 19.0.3, 19-sp3-jdk11
+  - 19-sp3-jdk17, 19030-jdk17
+  - 19-sp3-jdk8, 19030-jdk8
+  - 19-sp2, 19020.B202206231611, 19.0.2, 19-sp2-jdk11
+  - 19-sp2-jdk17, 19020-jdk17
+  - 19-sp2-jdk8, 19020-jdk8
+  - 19-sp1, 19010.B202205271126, 19.0.1, 19-sp1-jdk11
+  - 19-sp1-jdk17, 19010-jdk17
+  - 19-sp1-jdk8, 19010-jdk8
+  - 19, 19000.B202204291258, 19-ga, 19-jdk11
+  - 19-jdk17, 19000-jdk17
+  - 19-jdk8, 19000-jdk8
+  - 18.3.3, 18330.B202204282107, 18.3-sp3, 18.3-sp3-jdk11
+  - 18.3.3-jdk17, 18330-jdk17
+  - 18.3.3-jdk8, 18330-jdk8
+  - 18.3.2, 18320.B202203281814, 18.3-sp2, 18.3-sp2-jdk11
+  - 18.3.2-jdk17, 18320-jdk17
+  - 18.3.2-jdk8, 18320-jdk8
+  - 18.3.1, 18310.B202202231047, 18.3-sp1, 18.3-sp1-jdk11
+  - 18.3.1-jdk17, 18310-jdk17
+  - 18.3.1-jdk8, 18310-jdk8
+  - 18.3, 18.3-jdk11, 18300.B202201260232, 18.3-ga
+  - 18.3-jdk17, 18300-jdk17
+  - 18.3-jdk8, 18300-jdk8
+  - 18.2.3, 18.2.3-jdk11, 18230.B202201261719, 18.2-sp3
+  - 18.2.3-jdk8, 18230-jdk8
+  - 18.2.2, 18.2.2-jdk11, 18220.B202112240214, 18.2-sp2
+  - 18.2.2-jdk8, 18.2-sp2-jdk8, 18220-jdk8
+  - 18.2.1, 18210.B202111261433, 18.2-sp1
+  - 18.2, 18.2-ga, 18200.B202110261518
+  - 18.1-sp3, 18130.B202110250446
+  - 18.1-sp2, 18120.B202109290720
+  - 18.1-sp1, 18110.B202108301402
+  - 18.1, 18.1-ga, 18100.B202107262141
+  - 18.1-jdk8
+  - 18, 18-ga, 18000.B202104281512
+  - 18-jdk8, 18000-jdk8, 18000.B202104281512-jdk8
+  - 18-jdk17, 18000-jdk17, 18000.B202104281512-jdk17
+  - 17.1-sp3, 17130.B202107292036
+  - 17.1-sp2, 17120.B202106301222
+  - 17.1-up1, 17110.B202012141641
+  - 17.1-up1-jdk11, 17110.B202012141641-jdk11
+  - 17.1-up1-jdk13, 17110.B202012141641-jdk13
+  - 17.1, 17.1-ga, 17100.B202010191405, 17.1-ga-jdk11
+  - 17.1-jdk13, 17100.B202010191405-jdk13
+  - 17.1-jdk8, 17100-jdk8
+  - 17-up1, 17010.B202007241532
+  - 17, 17-ga, 17000.B202006051612
+  - 16.1-up2, 16120.B202003181533
+  - 16.1-up1, 16110.B201912280432
+  - 16.1, 16.1-ga, 16100.B201911150434
+  - 16-up2
+  - 16-up1
+  - 16
+  - 15.6-up1
+  - 15.6
+  - 15.5
 </details>
 
 # How to use this image
 
+## Use `docker run`
+
 ```sh
-docker run --name logireportserver -itd \
+docker run --name logireport-server -itd \
 -e USERKEY="<fake_user_key>" \
 -e USERPASSWORD="<fake_user_password>" \
 -e LGRPT_ADMIN_USERNAME=admin \
@@ -288,11 +289,13 @@ docker run --name logireportserver -itd \
 -p 8888:8888/tcp logianalytics/logireport-server
 ```
 
-or use [docker-compose](https://github.com/docker/compose)
+Then access the service at http://localhost:8888/
+
+## Use [docker compose](https://github.com/docker/compose)
 
 ```yaml
 services:
-    logireportserver:
+    logireport-server:
         environment:
             # License key and password for LogiReport Server
             # Replace with your actual user key and password.
@@ -319,33 +322,128 @@ services:
 
 Then access the service at http://localhost:8888/
 
-# Data Persistence
-
-If you want to keep things like your license key, deployed reports, and server settings, and use them in a new container, mount container path `/opt/LogiReportServer` to a volume:
+## Use Helm Chart
 
 ```sh
-docker run --name logireportserver -itd -p 8888:8888/tcp -v report_home:/opt/LogiReport/Server logianalytics/logireport-server
+export VERSION=26.3
+helm upgrade --install logireport-server \
+  oci://registry-1.docker.io/logianalytics/logireport-server \
+  --version ${VERSION}-helm --namespace logireport-test --create-namespace
+
+# Optional: Forwarding local port 8080 to service port 8888.
+kubectl port-forward -n logireport-test service/logireport-server 8080:8888
+```
+
+Then access Logi Report Server at http://localhost:8080/
+
+### Install chart onto an EKS cluster
+
+In this docs, we are deploying helm chart into an Auto Mode EKS cluster. Please adjust relevant configurations according to your actual environment.
+
+#### Create AWS EBS storage class, `logireport-ebs-sc`
+
+```sh
+kubectl apply -f - <<'EOF'
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: logireport-ebs-sc
+provisioner: ebs.csi.eks.amazonaws.com
+volumeBindingMode: WaitForFirstConsumer
+parameters:
+  type: gp3
+EOF
+```
+
+#### Install chart with JDBC drivers prepared, and use mysql as the system database.
+
+```sh
+helm upgrade --install logireport-server \
+  oci://registry-1.docker.io/logianalytics/logireport-server \
+  --version "${VERSION}-helm" \
+  --namespace logireport-test --create-namespace \
+  --set persistence.shared.enabled=true \
+  --set persistence.shared.storageClass=logireport-ebs-sc \
+  --set persistence.custom-resources.enabled=true \
+  --set persistence.custom-resources.storageClass=logireport-ebs-sc \
+  --set prepareJdbcDrivers.enabled=true \
+  --set env.LGRPT_SYSDB_TYP=Production \
+  --set env.LGRPT_SYSDB_JDBC_URL="jdbc:mysql://<the_mysqldb_host>[:port]/logireport" \
+  --set env.LGRPT_SYSDB_JDBC_DRIVER_CLASSNAME="com.mysql.cj.jdbc.Driver" \
+  --set env.LGRPT_SYSDB_JDBC_DRIVER_PATH=/var/lib/logi-report/custom/lib/mysql-connector-java-8.0.30.jar \
+  --set env.LGRPT_SYSDB_USERNAME="<the_db_username>" \
+  --set env.LGRPT_SYSDB_PASSWORD="<the_db_password>"
+```
+
+#### Install chart with an AWS ALB ingress (EKS Auto Mode)
+
+`createIngressClass=true` also creates the cluster-scoped IngressClass;
+omit it if the cluster already has one and set `ingress.className` to that class instead.
+
+```sh
+helm upgrade --install logireport-server \
+  oci://registry-1.docker.io/logianalytics/logireport-server \
+  --version "${VERSION}-helm" \
+  --namespace logireport-test --create-namespace \
+  --set persistence.shared.enabled=true \
+  --set persistence.shared.storageClass=logireport-ebs-sc \
+  --set persistence.custom-resources.enabled=true \
+  --set persistence.custom-resources.storageClass=logireport-ebs-sc \
+  --set ingress.enabled=true \
+  --set ingress.createIngressClass=true \
+  --set-string 'ingress.annotations.alb\.ingress\.kubernetes\.io/inbound-cidrs=10.10.10.0/24\,10.10.20.0/24\,8.39.144.0/24\,31.186.239.0/24\,163.116.128.0/17\,162.10.0.0/17\,8.36.116.0/24'
+# Get the ALB address (it may take a few minutes to be provisioned).
+kubectl get ingress logireport-server -n logireport-test
+# Other ALB settings (internal scheme, HTTPS certificate, ...) can be overridden under 'ingress.annotations' in a values file.
+# With the AWS Load Balancer Controller (non Auto Mode) set 'ingress.controller=ingress.k8s.aws/alb'.
+```
+
+#### Show deployed values.yaml
+
+```sh
+helm show values oci://registry-1.docker.io/logianalytics/logireport-server --version ${VERSION}-helm
+```
+
+#### Uninstall chart
+
+```sh
+helm uninstall -n logireport-test logireport-server
+```
+
+# Data Persistence
+
+If you want to keep things report history and/or custom resources, deployed reports,
+and server settings, and use them in a new container, mount container paths
+`/var/lib/logi-report/custom` and/or `/var/lib/logi-report/shared` to volumes:
+
+```sh
+docker run --name logireport-server -itd -p 8888:8888/tcp \
+    -v custom_res:/var/lib/logi-report/custom \
+    -v shared:/var/lib/logi-report/shared \
+    logianalytics/logireport-server
 ```
 
 or use docker compose:
 
 ```yaml
 services:
-    logireportserver:
+    logireport-server:
         image: logianalytics/logireport-server
         ports:
             - "8888:8888/tcp"
         volumes:
-            # Bind REPORTHOME in container to a volume on the host machine
-            # for persisting LogiReport Server data.
-            - report_home:/opt/LogiReport/Server
+            # Bind customized REPORTHOME resources in container to a volume
+            # on the host machine for persisting LogiReport Server data.
+            - custom_res:/var/lib/logi-report/custom
+            - shared:/var/lib/logi-report/shared
 volumes:
     # Volume definition for persisting LogiReport Server data.
     # For demo, we are using named volume on the docker host here.
     # You can also use a host path, NFS or a cloud storage solutions (e.g. AWS EBS/EFS).
     # When using a host path or NFS, make sure the path is writable by
     # the container user (logi user with UID 1106).
-    report_home: {}
+    custom_res: {}
+    shared: {}
 ```
 
 # Logs Configuration
@@ -369,7 +467,7 @@ All logger types support the following log levels:
 
 ```yaml
 services:
-    logireportserver:
+    logireport-server:
         environment:
             # Stream Server logs to container console
             - LGRPT_ENABLE_CONSOLE_LOGS_DESTINATION=true
@@ -397,7 +495,7 @@ You can set the database connection properties using environment variables when 
 
 ```yaml
 services:
-    logireportserver:
+    logireport-server:
         environment:
             # Database settings for Server
             - LGRPT_SYSDB_TYP=Production
@@ -423,7 +521,7 @@ Server supports clustering for high availability and load balancing. To enable c
 
 ```yaml
 services:
-    logireportserver:
+    logireport-server:
         environment:
             - LGRPT_CLUSTER_ENABLE=true
             - LGRPT_CLUSTER_NAME=logireport-cluster
@@ -454,7 +552,7 @@ Server supports TrueType fonts for report rendering. To add custom TrueType font
 
 ```yaml
 services:
-    logireportserver:
+    logireport-server:
         image: logianalytics/logireport-server
         ports:
             - "8888:8888/tcp"
@@ -467,9 +565,12 @@ services:
 
 # Resource Customization
 
-> **Note:**  
-> The main Server installation directory inside the container is `/opt/LogiReport/Server`.  
-> The `/var/lib/logi-report/custom` directory is used for customizations, additional resources, and configuration overrides (such as custom fonts, CSS/HTML/JS files, or property files), please keep the directory structure same as `/opt/LogiReport/Server`, so that the customized resources can be correctly applied.
+The main Server installation directory inside the container is `/opt/LogiReport/Server`.
+
+The `/var/lib/logi-report/custom` directory is used for customizations, additional resources,
+and configuration overrides (such as custom fonts, CSS/HTML/JS files, or property files),
+please keep the directory structure same as `/opt/LogiReport/Server`,
+so that the customized resources can be correctly applied.
 
 ## Server Properties and Response Headers Customization
 
@@ -479,7 +580,7 @@ You can also customize the HTTP response headers by binding a custom `responseHe
 
 ```yaml
 services:
-    logireportserver:
+    logireport-server:
         image: logianalytics/logireport-server
         ports:
             - "8888:8888/tcp"
